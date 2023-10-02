@@ -30,7 +30,7 @@ const Gallery = () => {
     <>
     <div className='  pb-8' >
     <h1 className='text-center  pt-24 text-[#224F34] text-5xl'> Trending Fashion</h1>
-     <p className='text-center text-xl  text-[#224F34] mt-12 mb-12'> Get In On The Trend With Our Customized selection of Trending Styles.</p>
+     <p className='text-center text-xl  text-[#224F34] mt-12 mb-12'> Tunaalika watu kujitambulisha na mtindo wetu wa muziki kupitia mavazi yetu ya kipekee. Mashati yetu yameundwa kwa ubunifu na uangalifu wa kipekee, yakiwakilisha jina langu na kazi yangu ya muziki. Kila ununuzi wa shati letu linasaidia kueneza muziki wetu na kukuza kipaji changu. </p>
     <div className="ml-8 mr-8 mt-4 grid grid-cols-3 gap-4 ">
       {items.map((item, index) => (
         <div key={index} className="text-center">
