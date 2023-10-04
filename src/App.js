@@ -5,8 +5,9 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Footer from './components/Footer';
-import Gallery from './components/Gallery';
+
 import ContactSection from './components/ContactSection';
+import PricingSection from './components/PricingSection';
 
 
 function App() {
@@ -15,9 +16,8 @@ function App() {
     <Navbar/>
     <Hero/>
     <About/>
-    <Gallery/>
-   
     
+    <PricingSection/>
     <ContactSection/>
     <Footer/>
       

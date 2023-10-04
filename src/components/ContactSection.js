@@ -3,10 +3,17 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const ContactSection = () => {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row py-10">
+
+<>
+
+<h1 className='text-4xl text-center font bold underline mt-12'>  CONTACT US </h1>
+ <div className="container mx-auto flex flex-col md:flex-row  py-10">
+      
       {/* Contact Icons */}
       <div className="flex flex-col items-center mb-6 md:mr-6">
+      
       <div className="p-8">
+         
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <p className="mb-4">
           Feel free to reach out to us for any inquiries or assistance. We are
@@ -63,7 +70,7 @@ const ContactSection = () => {
           </div>
           <div className="flex justify-center">
             <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-[#191970] hover:bg-gold-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="button"
             >
               Send
@@ -72,6 +79,13 @@ const ContactSection = () => {
         </form>
       </div>
     </div>
+
+
+</>
+
+
+
+   
   );
 };
 

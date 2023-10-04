@@ -1,9 +1,9 @@
 
 
-h1,nav{
+h1,nav,h2{
   font-family: 'Josefin Sans', sans-serif;
 }
-p, button, form{
+p, button, form {
   font-family: 'Fauna One', serif;
 }
 
