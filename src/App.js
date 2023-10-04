@@ -4,9 +4,10 @@ import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
+import ContactSection from './components/ContactSection';
+
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
     <Hero/>
     <About/>
     <Gallery/>
-    <Contact/>
+   
+    
+    <ContactSection/>
     <Footer/>
       
     </div>
