@@ -27,7 +27,7 @@ const Hero = () => {
      data-aos-duration="2500" class="flex md:justify-end w-full md:w-1/2 -mt-5">
          <div class="bg-dots">
             <div class="shadow-2xl max-w-md z-10 rounded-full mt-6 ml-4">
-               <img alt="card img" class="rounded" src={rama}/> 
+               <img alt="img" class="rounded" src={rama}/> 
                <p class="text-2xl p-10 bg-white"> "Najitahidi kuwapa burudani, mziki wa kweli na mafundisho mema!" - Cloud Galaxy. </p>
             </div>
          </div>
