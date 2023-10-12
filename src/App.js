@@ -8,7 +8,8 @@ import Footer from './components/Footer';
 
 import ContactSection from './components/ContactSection';
 import PricingSection from './components/PricingSection';
-import Youtube from './components/Youtube';
+
+import Yout from './components/Yout';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     <Navbar/>
     <Hero/>
     <About/>
-    <Youtube/>
+
+    <Yout/>
     
     <PricingSection/>
     <ContactSection/>
