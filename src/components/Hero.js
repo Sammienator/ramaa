@@ -12,7 +12,7 @@ const Hero = () => {
     
 
 
-<div  class="m-auto max-w-6xl p-12">
+<div id='home' class="m-auto max-w-6xl p-12">
    <div class="flex flex-col md:flex-row">
       <div data-aos="zoom-out-down"data-aos-easing="linear"
      data-aos-duration="2000" class="md:w-1/2 max-w-md flex flex-col justify-center">

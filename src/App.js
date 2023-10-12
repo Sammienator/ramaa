@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 
 import ContactSection from './components/ContactSection';
 import PricingSection from './components/PricingSection';
+import Youtube from './components/Youtube';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <About/>
+    <Youtube/>
     
     <PricingSection/>
     <ContactSection/>

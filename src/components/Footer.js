@@ -5,7 +5,8 @@ const Footer = () => {
    <>
    
  
-<footer class="bg-yellow-600 dark:bg-yellow-600">
+<footer data-aos="zoom-out-down" data-aos-easing="linear"
+     data-aos-duration="2500"  class="bg-yellow-600 dark:bg-yellow-600">
     <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
             <a href="#b">

@@ -13,15 +13,15 @@ const About = () => {
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 data-aos="fade-down"ata-aos-easing="linear"
+      <h1 data-aos="fade-down" data-aos-easing="linear"
      data-aos-duration="2000" class="sm:text-4xl text-3xl font-medium title-font mb-4 text-black"> About Ringa & Cloud Galaxy.</h1>
 
-      <p data-aos="fade-right" ata-aos-easing="linear"
+      <p data-aos="fade-right" data-aos-easing="linear"
      data-aos-duration="2500" class="lg:w-2/3 mx-auto text-base">The expectation is that this video will be unique and exciting, bringing together fans from all sides. This is a significant step for the artist, Cloud Galaxy in his music career and journey, and it signifies the great success that is to come. Kwenye mwezi wa Oktoba, msanii atashusha video mpya ya muziki. Msanii huyu amejitambulisha kwa jina jipya- "Cloud Galaxy", na atashirikisha muziki wa kipekee ambao utavutia mashabiki.</p>
 
 
       
-      <p data-aos="fade-left" ata-aos-easing="linear"
+      <p data-aos="fade-left" data-aos-easing="linear"
      data-aos-duration="2500" class="lg:w-2/3 mx-auto  text-base bold italic">
       RINGA, Ni video kubwa ya muziki inayojumuisha sanaa ya juu na ubunifu wa hali ya juu kwa kusawazisha muziki na maonyesho ya kuona. Cloud Galaxy anachukua hadithi ya muziki na kuifanya kuwa ya kipekee kwa kuonyesha picha zilizopangiliwa vizuri, mbinu za kamera za kuvutia, mwangaza wa kupendeza, na mazingira yanayovutia.
      </p>
@@ -30,7 +30,7 @@ const About = () => {
 
     </div>
     <div   class="flex flex-wrap justify-center  text-center ">
-      <div data-aos="flip-down" class="p-4 md:w-1/4 sm:w-1/2 w-full ">
+      <div  class="p-4 md:w-1/4 sm:w-1/2 w-full ">
         <div class="border-2 border-gray-200 px-4 py-6 rounded-lg hover:bg-white hover:shadow-xl">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
             <path d="M8 17l4 4 4-4m-4-5v9"></path>

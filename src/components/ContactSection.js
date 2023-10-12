@@ -6,11 +6,13 @@ const ContactSection = () => {
 
 <>
 
-<h1 className='text-4xl text-center font bold underline mt-12'>  CONTACT US </h1>
+<h1 data-aos="flip-down" data-aos-easing="linear"
+     data-aos-duration="1000" className='text-4xl text-center font bold underline mt-12'>  CONTACT US </h1>
  <div className="container mx-auto flex flex-col md:flex-row  py-10">
       
       {/* Contact Icons */}
-      <div className="flex flex-col items-center mb-6 md:mr-6">
+      <div data-aos="fade-down" data-aos-easing="linear"
+     data-aos-duration="2000" className="flex flex-col items-center mb-6 md:mr-6">
       
       <div className="p-8">
          
@@ -33,7 +35,8 @@ const ContactSection = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="mt-6 md:ml-6 md:w-1/2">
+      <div data-aos="fade-down" data-aos-easing="linear"
+     data-aos-duration="2000"  className="mt-6 md:ml-6 md:w-1/2">
         <h2 className="text-2xl text-center mb-4">Feel free to send us a message.</h2>
         <form>
           <div className="mb-4">
